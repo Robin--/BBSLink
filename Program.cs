@@ -134,7 +134,7 @@ namespace ArchaicBinary.BBSLink
             }
             catch (Exception ex)
             {
-                File.AppendAllText(@"c:\gamesrv\logs\bbslink.txt", ex.ToString() + Environment.NewLine);
+                File.AppendAllText("bbslink.txt", ex.ToString() + Environment.NewLine);
             }
         }
 
